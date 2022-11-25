@@ -1,0 +1,78 @@
+body {
+  background-color: #3598dc;
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+}
+div {
+  width: 25%;
+  height: 400x;
+  margin: 0 auto;
+  padding: 20px 20px 0px 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #333333;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.header-secondary-text {
+  color: #b7abac;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border-bottom: solid #b7abac 1px;
+}
+
+input {
+  width: 90%;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 10px;
+  background-color: #f2f2f2;
+}
+
+input:not(.confirm-checkbox) {
+  margin: 8px;
+}
+
+.name {
+  width: 40%;
+}
+
+.confirm-checkbox {
+  width: 10px;
+  margin-top: 5px;
+}
+
+label {
+  font-size: 15px;
+}
+button {
+  width: 100px;
+  height: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  background-color: #3598dc;
+}
+.have-account {
+  color: white;
+  text-align: center;
+}
+
+a:not(.link) {
+  text-decoration: none;
+  color: #3598dc;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
