@@ -4,7 +4,7 @@ body {
 body {
   font-family: "Roboto", "sans-serif";
 }
-div {
+.div-wrapper {
   width: 30%;
   margin: auto;
   padding: 35px 15px 25px 25px;
@@ -19,7 +19,7 @@ h1 {
   margin-bottom: 30px;
   text-align: center;
 }
-input {
+.input-wrapper {
   width: 70%;
   height: 50px;
   text-align: start;
@@ -61,4 +61,9 @@ p {
 a {
   text-decoration: none;
   color: #b5b9c0;
+}
+
+.wrapper{
+  display: flex;
+  align-items: center;
 }
