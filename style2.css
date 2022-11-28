@@ -48,7 +48,7 @@ button {
   text-align: center;
   margin-bottom: 20px;
   margin-top: 25px;
-  width: 380px;
+  width: 330px;
   border-radius: 4px;
   border: none;
   color: white;
@@ -63,7 +63,7 @@ a {
   color: #b5b9c0;
 }
 
-.wrapper{
+.wrapper {
   display: flex;
   align-items: center;
 }
