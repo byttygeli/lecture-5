@@ -1,78 +1,99 @@
+
+
 body {
   background-color: #3598dc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
 }
 
-body {
-  font-family: "Roboto", "sans-serif";
-}
-div {
-  width: 25%;
-  height: 400x;
-  margin: 0 auto;
-  padding: 20px 20px 0px 20px;
+section {
   background-color: white;
-  border-radius: 5px;
+  width: 330px;
+  height: 398px;
+  border-radius: 1%;
 }
 
-h1 {
-  color: #333333;
-  font-size: 30px;
-  margin-bottom: 5px;
+.line{
+  height: 1px;
+  width: 98%;
+  margin: 10px 0;
+  background-color: grey;
 }
-.header-secondary-text {
-  color: #b7abac;
-  font-size: 14px;
-  margin-bottom: 10px;
-  padding-bottom: 20px;
-  border-bottom: solid #b7abac 1px;
+
+#txt {
+  width: 130px;
+  font-size: 15px;
+}
+.container {
+  padding-left: 15px;
+}
+
+#email {
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+#password {
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+#confirm{
+  font-size: 15px;
 }
 
 input {
-  width: 90%;
-  height: 30px;
+  padding: 10px;
+  background-color: rgb(235, 235, 235);
   border: none;
-  border-radius: 3px;
-  padding-left: 10px;
-  background-color: #f2f2f2;
+  border-radius: 7%;
 }
 
-input:not(.confirm-checkbox) {
-  margin: 8px;
+.email {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+.accept {
+  display: flex;
+  align-items: center;
+
 }
 
-.name {
-  width: 40%;
+.accept:last-child{
+  margin-left: 10px;
 }
 
-.confirm-checkbox {
-  width: 10px;
-  margin-top: 5px;
+span {
+  color: rgb(37, 175, 221);
 }
 
-label {
-  font-size: 15px;
-}
 button {
-  width: 100px;
-  height: 40px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  border-radius: 3px;
-  border: none;
-  color: white;
+  padding: 13px 25px;
   background-color: #3598dc;
-}
-.have-account {
+  border: none;
+  border-radius: 8%;
   color: white;
-  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+}
+.Login {
+  margin: 30px 0 0 70px;
+  color:white;
 }
 
-a:not(.link) {
-  text-decoration: none;
-  color: #3598dc;
+a {
+  color:white;
 }
 
-.link {
-  color: white;
-  text-decoration: none;
+.text-info{
+  margin-left: 10px;
+}
+
+.text-1{
+  color: grey;
 }

@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,32 +14,37 @@
     <title>sign up</title>
   </head>
   <body>
-    <div>
-      <h1>Sign Up</h1>
-      <p class="header-secondary-text">
-        Please fill in this form to create account
-      </p>
-      <form action="">
-        <input type="text" placeholder="First Name" class="name" />
-        <input type="text" placeholder="Last Name" class="name" />
-        <br />
-        <input type="email" placeholder="Email" />
-        <br />
-        <input type="password" placeholder="Password" />
-        <br />
-        <input type="password" placeholder="Confirm Password" />
-        <br />
-        <input type="checkbox" placeholder="confirm" class="confirm-checkbox" />
-        <label for="confirm"
-          >I accept the <a href="">Terms of use</a> &
-          <a href="">Privacy Policy</a></label
-        >
-        <br />
+    <section>
+      <div class="container">
+        <div class="signup">
+          <h2>Sign Up</h2>
+          <p class="text-1">Please fill in this form to create an account!</p>
+        </div> 
+        <div class="line"></div>
+        <div class="username">
+          <input type="text" id="txt" placeholder="First Name" />
+          <input type="text" id="txt" placeholder="Last Name" />
+        </div>
+        <div class="email">
+          <input type="email" id="email" placeholder="Email" />
+          <input type="password" id="password" placeholder="Password" />
+          <input type="password" id="confirm" placeholder="Confirm Pasword" />
+        </div>
+        <div class="accept">
+          <input type="checkbox" />
+          <div class="text-info">
+            <p class="text-1">
+              I accept the <span>Terms of Use</span>&
+              <span>Privacy Policy</span>
+            </p>
+          </div>
+        </div>
         <button>Sign Up</button>
-      </form>
-    </div>
-    <p class="have-account">
-      Already have account? <a href="login.html" class="link">Login Here</a>
-    </p>
+      </div>
+
+      <div class="Login">
+        <p>Alredy have an account? <a href="index2.html">Login here</a></p>
+      </div>
+    </section>
   </body>
 </html>
